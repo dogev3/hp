@@ -1,0 +1,224 @@
+.root {
+  display: flex;
+  width: 100%;
+  height: 777px;
+  position: relative;
+  flex-direction: column;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 760px) {
+  .root {
+    width: 403px;
+    height: 1626px;
+  }
+}
+.box__yUxle {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+}
+.box__yUxle > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.box__yUxle > :global(.__wab_flex-container) > *,
+.box__yUxle > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 32px;
+}
+@media (min-width: 0px) and (max-width: 760px) {
+  .box__yUxle {
+    height: 1388px;
+    flex-shrink: 0;
+  }
+}
+.section:global(.__wab_instance) {
+  position: relative;
+}
+.box__qsvj3 {
+  height: auto;
+}
+.box__isi9R {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
+  width: 100%;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 760px) {
+  .box__isi9R {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.img___3NpnP {
+  position: relative;
+  object-fit: cover;
+  width: 25em;
+  height: auto;
+  align-self: center;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+  margin-right: 0em;
+  margin-left: 0em;
+  margin-bottom: 0em;
+  flex-shrink: 0;
+}
+.box__s9 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  min-width: 0;
+  margin: 0px 0em;
+}
+.box__s9 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.box__s9 > :global(.__wab_flex-container) > *,
+.box__s9 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 32px;
+}
+@media (min-width: 0px) and (max-width: 760px) {
+  .box__s9 {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+  }
+}
+.box__hCnVl {
+  position: relative;
+  font-size: 2rem;
+  text-align: center;
+  color: #535353 /* plasmic-token: 2FwxTzN-7l_lqg */;
+  width: 100%;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 760px) {
+  .box__hCnVl {
+    font-size: 24px;
+    width: 100%;
+    min-width: 0;
+  }
+}
+.box__iFbbG {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-self: auto;
+  margin-left: 2em;
+  margin-top: calc(0px + 32px) !important;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  width: auto;
+}
+.box__ropH {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+@media (min-width: 0px) and (max-width: 760px) {
+  .box__ropH {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.box__jTkwX {
+  position: relative;
+  font-size: 1.8rem;
+}
+.box___8DzTt {
+  height: auto;
+  font-size: 1.8rem;
+  width: 100%;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 760px) {
+  .box___8DzTt {
+    width: auto;
+    display: inline-block;
+  }
+}
+.box__kx3Qt {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+@media (min-width: 0px) and (max-width: 760px) {
+  .box__kx3Qt {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.box__fEckW {
+  position: relative;
+  font-size: 1.8rem;
+}
+.box___4LKIa {
+  height: auto;
+  font-size: 1.8rem;
+  width: 100%;
+  min-width: 0;
+}
+.box__r9P0I {
+  position: relative;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 100%;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 760px) {
+  .box__r9P0I {
+    font-size: 24px;
+  }
+}
+.box___626Z5 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1024px;
+  max-width: 1000px;
+  height: 390px;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 760px) {
+  .box___626Z5 {
+    height: auto;
+    width: 100%;
+    min-width: 0;
+  }
+}
+.img__qtuEt {
+  position: relative;
+  object-fit: cover;
+  width: 1024px;
+  height: 390px;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 760px) {
+  .img__qtuEt {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+  }
+}
