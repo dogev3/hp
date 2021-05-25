@@ -1,0 +1,29 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.box__qXlDy {
+  display: block;
+  position: relative;
+  width: 167px;
+  height: 97px;
+  flex-shrink: 0;
+  border-radius: 0.1em;
+  background: #fff18e;
+  border-width: 0.3em;
+  border-style: solid;
+}
+.box__uiPg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  display: inline-block;
+}

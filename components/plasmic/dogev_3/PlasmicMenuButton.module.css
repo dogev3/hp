@@ -1,0 +1,46 @@
+.root {
+  display: flex;
+  position: relative;
+  width: 6rem;
+  height: 6rem;
+  overflow: hidden;
+}
+.box {
+  display: flex;
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+}
+.close {
+  position: relative;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  transition-property: all;
+  transition-duration: 1s;
+  flex-shrink: 0;
+}
+.close__toggled {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.menu {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.root:hover .menu {
+  cursor: pointer;
+}
