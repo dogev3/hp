@@ -389,6 +389,7 @@
     position: relative;
     text-align: center;
     width: 100%;
+    margin-bottom: 2em;
     min-width: 0;
   }
 }

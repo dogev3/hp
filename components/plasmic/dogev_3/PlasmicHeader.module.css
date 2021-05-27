@@ -7,12 +7,22 @@
   width: 100%;
   padding-left: 1em;
   padding-right: 1em;
+  height: auto;
   min-width: 0;
   background: #e8beb9;
 }
 @media (min-width: 0px) and (max-width: 760px) {
   .root {
+    height: auto;
     background: #e8beb9;
+  }
+}
+.root__toggled {
+  height: auto;
+}
+@media (min-width: 0px) and (max-width: 760px) {
+  .root__toggled {
+    height: auto;
   }
 }
 .box__zaCup {

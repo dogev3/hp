@@ -33,8 +33,7 @@
 }
 @media (min-width: 0px) and (max-width: 760px) {
   .box__woBoH {
-    height: 1388px;
-    flex-shrink: 0;
+    height: auto;
   }
 }
 .box__pyxnP {
@@ -167,6 +166,7 @@
   .box__wzfzc {
     font-size: 24px;
     width: 100%;
+    height: auto;
     min-width: 0;
   }
 }
@@ -176,6 +176,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+}
+@media (min-width: 0px) and (max-width: 760px) {
+  .box__zpZdE {
+    height: auto;
+  }
 }
 .link__wstza {
   position: relative;

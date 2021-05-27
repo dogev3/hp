@@ -85,7 +85,6 @@ function PlasmicHeader__RenderFunc(props: {
     screen: useScreenVariants()
   });
 
-  console.log('variants:', variants.toggled, variants.setToggled);
   return (
     <div
       data-plasmic-name={"root"}

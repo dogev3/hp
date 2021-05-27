@@ -9,7 +9,7 @@
 @media (min-width: 0px) and (max-width: 760px) {
   .root {
     width: 403px;
-    height: 1626px;
+    height: auto;
   }
 }
 .box__yUxle {
@@ -32,8 +32,7 @@
 }
 @media (min-width: 0px) and (max-width: 760px) {
   .box__yUxle {
-    height: 1388px;
-    flex-shrink: 0;
+    height: auto;
   }
 }
 .section:global(.__wab_instance) {

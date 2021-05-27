@@ -80,7 +80,6 @@ function PlasmicMenuButton__RenderFunc(props: {
   forNode?: string;
 }) {
   const { variants, args, overrides, forNode, dataFetches } = props;
-  console.log('Menu button:', variants);
 
   return (
     <div
