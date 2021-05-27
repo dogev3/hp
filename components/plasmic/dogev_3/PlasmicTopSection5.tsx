@@ -175,7 +175,7 @@ function PlasmicTopSection5__RenderFunc(props: {
               <p.PlasmicLink
                 className={classNames(defaultcss.all, sty.link__wstza)}
                 component={Link}
-                href={"https://twitter.com/doge_v3" as const}
+                href={"https://twitter.com/_dogev3_" as const}
                 platform={"nextjs"}
               >
                 <img

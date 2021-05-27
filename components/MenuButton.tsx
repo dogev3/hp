@@ -37,8 +37,8 @@ function MenuButton_(props: MenuButtonProps, ref: HTMLElementRefOf<"div">) {
   //
   // By default, we are just piping all MenuButtonProps here, but feel free
   // to do whatever works for you.
-
-  return <PlasmicMenuButton root={{ ref }} {...props} />;
+  console.log("MenuButton:",props.toggled, props.setToggled);
+  return <PlasmicMenuButton root={{ ref }} {...props} variants={{toggled: props.toggled, setToggled: props.setToggled}} />;
 }
 
 const MenuButton = React.forwardRef(MenuButton_);

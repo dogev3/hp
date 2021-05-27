@@ -45,16 +45,11 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_dogev_3.module.css"; // plasmic-import: uhjxjVT6QbAZLostZzQbnY/projectcss
 import * as sty from "./PlasmicHome.module.css"; // plasmic-import: GScOQhOCWSccf/css
 
-export type PlasmicHome__VariantMembers = {
-  toggled: "toggled";
-};
+export type PlasmicHome__VariantMembers = {};
 
-export type PlasmicHome__VariantsArgs = {
-  toggled?: SingleBooleanChoiceArg<"toggled">;
-};
-
+export type PlasmicHome__VariantsArgs = {};
 type VariantPropType = keyof PlasmicHome__VariantsArgs;
-export const PlasmicHome__VariantProps = new Array<VariantPropType>("toggled");
+export const PlasmicHome__VariantProps = new Array<VariantPropType>();
 
 export type PlasmicHome__ArgsType = {};
 type ArgPropType = keyof PlasmicHome__ArgsType;
@@ -113,8 +108,7 @@ function PlasmicHome__RenderFunc(props: {
           className={classNames(
             defaultcss.all,
             projectcss.root_reset,
-            sty.root,
-            { [sty.root__toggled]: hasVariant(variants, "toggled", "toggled") }
+            sty.root
           )}
         >
           <p.Stack
@@ -125,18 +119,7 @@ function PlasmicHome__RenderFunc(props: {
             <Header
               data-plasmic-name={"header"}
               data-plasmic-override={overrides.header}
-              className={classNames("__wab_instance", sty.header, {
-                [sty.header__toggled]: hasVariant(
-                  variants,
-                  "toggled",
-                  "toggled"
-                )
-              })}
-              toggled={
-                hasVariant(variants, "toggled", "toggled")
-                  ? ("toggled" as const)
-                  : undefined
-              }
+              className={classNames("__wab_instance", sty.header)}
             />
 
             <TopSection

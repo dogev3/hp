@@ -49,6 +49,7 @@ export type PlasmicHeader__VariantMembers = {
 };
 
 export type PlasmicHeader__VariantsArgs = {
+  setToggled?: (toggled: boolean) => void;
   toggled?: SingleBooleanChoiceArg<"toggled">;
 };
 
@@ -66,6 +67,7 @@ export type PlasmicHeader__OverridesType = {
 };
 
 export interface DefaultHeaderProps {
+  setToggled?: (toggled: boolean) => void;
   toggled?: SingleBooleanChoiceArg<"toggled">;
   className?: string;
 }
@@ -83,6 +85,7 @@ function PlasmicHeader__RenderFunc(props: {
     screen: useScreenVariants()
   });
 
+  console.log('variants:', variants.toggled, variants.setToggled);
   return (
     <div
       data-plasmic-name={"root"}
@@ -177,6 +180,8 @@ function PlasmicHeader__RenderFunc(props: {
                       : false
                   ) ? (
                     <MenuButton
+                      toggled={variants.toggled}
+                      setToggled={variants.setToggled}
                       className={classNames(
                         "__wab_instance",
                         sty.menuButton__qPSbr,
@@ -188,12 +193,6 @@ function PlasmicHeader__RenderFunc(props: {
                           )
                         }
                       )}
-                      toggled={
-                        hasVariant(variants, "toggled", "toggled") &&
-                        hasVariant(globalVariants, "screen", "mobile")
-                          ? ("toggled" as const)
-                          : undefined
-                      }
                     />
                   ) : null}
                 </div>
@@ -409,6 +408,8 @@ function PlasmicHeader__RenderFunc(props: {
         >
           {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
             <MenuButton
+              toggled={variants.toggled}
+              setToggled={variants.setToggled}
               className={classNames("__wab_instance", sty.menuButton__p4Gjd, {
                 [sty.menuButton__toggled__p4GjdKgXzj]: hasVariant(
                   variants,

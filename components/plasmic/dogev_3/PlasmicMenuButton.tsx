@@ -46,6 +46,7 @@ export type PlasmicMenuButton__VariantMembers = {
 };
 
 export type PlasmicMenuButton__VariantsArgs = {
+  setToggled?: (toggled: boolean) => void;
   toggled?: SingleBooleanChoiceArg<"toggled">;
 };
 
@@ -66,6 +67,7 @@ export type PlasmicMenuButton__OverridesType = {
 };
 
 export interface DefaultMenuButtonProps {
+  setToggled?: (toggled: boolean) => void;
   toggled?: SingleBooleanChoiceArg<"toggled">;
   className?: string;
 }
@@ -78,6 +80,7 @@ function PlasmicMenuButton__RenderFunc(props: {
   forNode?: string;
 }) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+  console.log('Menu button:', variants);
 
   return (
     <div
@@ -88,6 +91,7 @@ function PlasmicMenuButton__RenderFunc(props: {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
         [sty.root__toggled]: hasVariant(variants, "toggled", "toggled")
       })}
+      onClick={() => variants.setToggled(!variants.toggled)}
     >
       <div
         data-plasmic-name={"box"}
