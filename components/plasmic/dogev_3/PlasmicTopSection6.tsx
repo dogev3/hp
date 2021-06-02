@@ -208,7 +208,7 @@ function PlasmicTopSection6__RenderFunc(props: {
                   sty.box___22Lno
                 )}
               >
-                Click on the gear icon to open<br /><BLUE>Transaction Settings</BLUE><br />> Click On next to <RED>Toggle Expert Mode</RED> > <ORANGE>Confirm warning</ORANGE> > done!<br /><br />
+                Click on the gear icon to open<br /><BLUE>Transaction Settings</BLUE><br />&gt; Click On next to <RED>Toggle Expert Mode</RED> &gt; <ORANGE>Confirm warning</ORANGE> &gt; done!<br /><br />
               </div>
             </div>
           </div>
