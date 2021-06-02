@@ -7,6 +7,7 @@ import {
 } from "./plasmic/dogev_3/PlasmicTopSection";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 import { useFetch } from "../hooks/useFetch";
+import HUni from "./Text/HUni";
 
 // Your component props start with props for variants and slots you defined
 // in Plasmic, but you can add more here, like event handlers that you can
@@ -48,9 +49,9 @@ function TopSection_(props: TopSectionProps, ref: HTMLElementRefOf<"div">) {
     currentPrice: number,
   }>("https://gist.githubusercontent.com/9ab78f5225ff4a4cae8ba303/db6b693480341decf9648d9f3c496da2/raw/sample.json");
   const children = <div>
-    {`DOGEV3: $${json?.currentPrice}
-    Current Stage: ${json?.currentStageId}
-    Need to ${(json?.upperPrice/json?.currentPrice).toFixed((2))}x from current price to rev up to Stage ${Number(json?.currentStageId) + 1}`}
+    DOGEV3: <strong>${json?.currentPrice}</strong><br />
+    Current Stage: {json?.currentStageId}<br />
+    Need to <strong>{(json?.upperPrice/json?.currentPrice).toFixed((2))}</strong>x from current price to rev up to Stage {Number(json?.currentStageId) + 1}
   </div>;
   return <PlasmicTopSection root={{ ref }} {...props}>{children}</PlasmicTopSection>;
 }

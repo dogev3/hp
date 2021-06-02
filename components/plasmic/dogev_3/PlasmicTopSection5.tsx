@@ -40,6 +40,8 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_dogev_3.module.css"; // plasmic-import: uhjxjVT6QbAZLostZzQbnY/projectcss
 import * as sty from "./PlasmicTopSection5.module.css"; // plasmic-import: fMVhuyPqRaE/css
+import HDOGE from "../../Text/HDOGE";
+import HLink from "../../Text/HLink";
 
 export type PlasmicTopSection5__VariantMembers = {};
 
@@ -161,9 +163,7 @@ function PlasmicTopSection5__RenderFunc(props: {
             >
               <span>
                 <React.Fragment>
-                  {
-                    "Doge V3 is a Lone Wolf that lives independently,\nstrong and proud. \nThere is no community manager and no paid shills. \n\nAll dogs have to learn to make it on their own. ​\n\nIf you really need help, howl (tweet) on a full moon night (any day actually) with hashtag #dogev3 and a dire wolf nearby just might come and save the day.\n\nYou can catch your dawg on Twitter and Telegram. \n\nNever send tokens to impersonators\nand dogs that claim to be from the project. \n\nDoge V3 will never ask or funds or ask for your private keys. \n\nKeep those keys hidden, lock away your DOGEV3 tokens, and let's rocket to the moon and beyond! \n\n"
-                  }
+                  <HDOGE>Doge V3</HDOGE> is a Lone Wolf that lives independently,<br />strong and proud. <br />There is no community manager and no paid shills. <br /><br />All dogs have to learn to make it on their own.<br /><br />If you really need help, howl (tweet) on a full moon night (any day actually) with hashtag <HLink href={"https://twitter.com/search?q=%23dogev3&src=typed_query"}>#dogev3</HLink> and a dire wolf nearby just might come and save the day.<br /><br />You can catch your dawg on <HLink href={"https://twitter.com/_dogev3_"}>Twitter</HLink> and <HLink href={"https://t.me/doge_v3"}>Telegram</HLink>. <br /><br />Never send tokens to impersonators<br />and dogs that claim to be from the project. <br /><br /><HDOGE>Doge V3</HDOGE> will never ask or funds or ask for your private keys. <br /><br />Keep those keys hidden, lock away your <HDOGE>DOGEV3</HDOGE> tokens, and let's rocket to the moon and beyond! <br /><br />
                 </React.Fragment>
                 <span style={{ fontWeight: 700 }}>
                   {"Bow wow wow yippi yo yippi yay!!"}

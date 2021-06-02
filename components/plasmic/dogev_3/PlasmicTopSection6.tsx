@@ -44,6 +44,9 @@ import * as sty from "./PlasmicTopSection6.module.css"; // plasmic-import: q_Z45
 import MetamasksvgIcon from "./icons/PlasmicIcon__Metamasksvg"; // plasmic-import: dkMQ3rMvk/icon
 import UniswapUniLogosvgIcon from "./icons/PlasmicIcon__UniswapUniLogosvg"; // plasmic-import: 6dp29rw48Y/icon
 import RocketsvgIcon from "./icons/PlasmicIcon__Rocketsvg"; // plasmic-import: XWs4dbNTof/icon
+import BLUE from "../../Text/BLUE";
+import RED from "../../Text/RED";
+import ORANGE from "../../Text/ORANGE";
 
 export type PlasmicTopSection6__VariantMembers = {};
 
@@ -205,9 +208,7 @@ function PlasmicTopSection6__RenderFunc(props: {
                   sty.box___22Lno
                 )}
               >
-                {
-                  "Click on the gear icon to open\nTransaction Settings\n> Click On next to Toggle Expert Mode > Confirm warning > done!\n\n"
-                }
+                Click on the gear icon to open<br /><BLUE>Transaction Settings</BLUE><br />> Click On next to <RED>Toggle Expert Mode</RED> > <ORANGE>Confirm warning</ORANGE> > done!<br /><br />
               </div>
             </div>
           </div>

@@ -40,6 +40,9 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_dogev_3.module.css"; // plasmic-import: uhjxjVT6QbAZLostZzQbnY/projectcss
 import * as sty from "./PlasmicTopSection3.module.css"; // plasmic-import: _4SSVwbanKj/css
+import HUni from "../../Text/HUni";
+import RED from "../../Text/RED";
+import HDOGE from "../../Text/HDOGE";
 
 export type PlasmicTopSection3__VariantMembers = {};
 
@@ -161,9 +164,7 @@ function PlasmicTopSection3__RenderFunc(props: {
               sty.box__gonDo
             )}
           >
-            {hasVariant(globalVariants, "screen", "mobile")
-              ? "For those that want to get a little more technical:\nIf you know a thing or two about UniswapV3, you might find the mechanics of Doge V3 unique, interesting and full of PAWPAMENTALS. \n\nWhen one provides liquidity on UniswapV3, one first has to specify a price range. \nThe range for DOGEV3 is set at 15x (15 times the initial price as upper range and 1/15 of the initial price as lower range). When the price of DOGEV3 hits tenbagger (or 10x), MRNA automatically sets a new price range that continues along the price curve with\nthe same upper and lower bounds (i.e. 15x & 1/15) and adjusts liquidity.\n\n When liquidity is injected (and this is the key point) into a price range: \n"
-              : "For those that want to get a little more technical:\nIf you know a thing or two about UniswapV3, you might find the mechanics of Doge V3 unique, interesting and full of PAWPAMENTALS. \n\nWhen one provides liquidity on UniswapV3, one first has to specify a price range. \nThe range for DOGEV3 is set at 15x (15 times the initial price as upper range and 1/15 of the initial price as lower range). When the price of DOGEV3 hits tenbagger (or 10x), MRNA automatically sets a new price range that continues along the price curve with\nthe same upper and lower bounds (i.e. 15x & 1/15) and adjusts liquidity.\n\n When liquidity is injected (and this is the key point) into a price range: \n"}
+            For those that want to get a little more technical:<br />If you know a thing or two about <HUni>UniswapV3</HUni>, you might find the mechanics of Doge V3 unique, interesting and full of <RED>PAWPAMENTALS</RED>. <br /><br />When one provides liquidity on <HUni>UniswapV3</HUni>, one first has to specify a price range. <br />The range for <HDOGE>DOGEV3</HDOGE> is set at <strong>15</strong>x (15 times the initial price as upper range and <strong>1/15</strong> of the initial price as lower range). When the price of <HDOGE>DOGEV3</HDOGE> hits tenbagger (or <strong>10</strong>x), <RED>MRNA</RED> automatically sets a new price range that continues along the price curve with<br />the same upper and lower bounds (i.e. <strong>15x & 1/15</strong>) and adjusts liquidity.<br /><br /> When liquidity is injected (and this is the key point) into a price range:
           </div>
 
           <div className={classNames(defaultcss.all, sty.box__hDyKs)}>
@@ -235,9 +236,7 @@ function PlasmicTopSection3__RenderFunc(props: {
               sty.box__tJdVx
             )}
           >
-            {hasVariant(globalVariants, "screen", "mobile")
-              ? " You wanna know more?\n Sometimes you have to get your paws wet and go look for yourself!"
-              : " You wanna know more?\n Sometimes you have to get your paws wet and go look for yourself!"}
+            You wanna know more?<br /><strong>Sometimes you have to get your paws wet and go look for yourself!</strong>
           </div>
         </p.Stack>
       </p.Stack>

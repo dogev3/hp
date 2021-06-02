@@ -40,6 +40,8 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_dogev_3.module.css"; // plasmic-import: uhjxjVT6QbAZLostZzQbnY/projectcss
 import * as sty from "./PlasmicTopSection2.module.css"; // plasmic-import: zfH50axSPvl/css
+import RED from "../../Text/RED";
+import HUni from "../../Text/HUni";
 
 export type PlasmicTopSection2__VariantMembers = {};
 
@@ -99,9 +101,7 @@ function PlasmicTopSection2__RenderFunc(props: {
                 sty.box__qsvj3
               )}
             >
-              {
-                "The Moon Rocket Nitro Accelerator (MRNA) is a smart contract that makes the price of DOGEV3 easy to pump but hard to dump!"
-              }
+              The <RED>Moon Rocket Nitro Accelerator (MRNA)</RED> is a smart contract that makes the price of <HUni>DOGEV3</HUni> easy to pump but hard to dump!
             </div>
           }
           title={"Moon Rocket Nitro Accelerator"}
@@ -130,9 +130,7 @@ function PlasmicTopSection2__RenderFunc(props: {
                 sty.box__hCnVl
               )}
             >
-              {
-                "MRNA automatically performs the following functions without the need for human intervention:"
-              }
+              <RED>MRNA</RED> automatically performs the following functions without the need for human intervention:
             </div>
 
             <div className={classNames(defaultcss.all, sty.box__iFbbG)}>
@@ -154,9 +152,7 @@ function PlasmicTopSection2__RenderFunc(props: {
                     sty.box___8DzTt
                   )}
                 >
-                  {
-                    "Dynamically adjusts the price range to supply liquidity based on DOGEV3 price movements"
-                  }
+                  Dynamically adjusts the price range to supply liquidity based on <HUni>DOGEV3</HUni> price movements
                 </div>
               </div>
 
@@ -192,9 +188,7 @@ function PlasmicTopSection2__RenderFunc(props: {
                 sty.box__r9P0I
               )}
             >
-              {
-                "Ain't nothin' gonna break my stride\nDoggy pumping and it won't touch ground\nOh no, doggy got to keep on movin'!!"
-              }
+              Ain't nothin' gonna break my stride<br />Doggy pumping and it won't touch ground<br /><strong>Oh no, doggy got to keep on movin'!!</strong>
             </div>
           </p.Stack>
         </div>

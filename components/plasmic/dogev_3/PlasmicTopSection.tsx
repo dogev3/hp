@@ -40,6 +40,9 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_dogev_3.module.css"; // plasmic-import: uhjxjVT6QbAZLostZzQbnY/projectcss
 import * as sty from "./PlasmicTopSection.module.css"; // plasmic-import: 625oINhfxRLzG/css
+import HUni from "../../Text/HUni";
+import HDOGE from "../../Text/HDOGE";
+import RED from "../../Text/RED";
 
 export type PlasmicTopSection__VariantMembers = {};
 
@@ -97,7 +100,7 @@ function PlasmicTopSection__RenderFunc(props: {
               sty.box__cAyO5
             )}
           >
-            {"Doge + UniswapV3 ="}
+            <HDOGE>Doge</HDOGE> + <HUni>UniswapV3</HUni> =
           </div>
 
           <div
@@ -124,9 +127,7 @@ function PlasmicTopSection__RenderFunc(props: {
                 sty.box___1Gi0K
               )}
             >
-              {
-                "Doggy Coin with Pawpamentals\nMoon Rocket Nitro Accelerator (MRNA) Enabled\nThis Dog is Designed to PUMP faster than any other coin on Uniswap V3"
-              }
+              <HDOGE>Doggy Coin</HDOGE> with <HUni>Pawpamentals</HUni><br /><RED>Moon Rocket Nitro Accelerator (MRNA)</RED> Enabled<br/>This Dog is Designed to PUMP faster than any other coin on <HUni>Uniswap V3</HUni>
             </div>
 
             <div className={classNames(defaultcss.all, sty.box__nRbpY)}>

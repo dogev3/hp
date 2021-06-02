@@ -40,6 +40,9 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_dogev_3.module.css"; // plasmic-import: uhjxjVT6QbAZLostZzQbnY/projectcss
 import * as sty from "./PlasmicTopSection4.module.css"; // plasmic-import: pa50bfxK1QN/css
+import HDOGE from "../../Text/HDOGE";
+import RED from "../../Text/RED";
+import HUni from "../../Text/HUni";
 
 export type PlasmicTopSection4__VariantMembers = {};
 
@@ -128,9 +131,7 @@ function PlasmicTopSection4__RenderFunc(props: {
               sty.box__fcqAv
             )}
           >
-            {hasVariant(globalVariants, "screen", "mobile")
-              ? "Doge V3 is designed to PUMP fast, specifically on  Uniswap V3 \nAll made possible by the Moon Rocket Nitro Accelerator. \n\n​DOGEV3 is cheap!\nUsers can load up on a ton of DOGEV3.\nHurry hurry before the rocket launches for the moon!\n\n​We locked 50% of the total supply (130,000,000,000 DOGEV3) to \nUniswapV3 and threw away the keys, paying homage to the other dog coins, woof woof! \n\n The remaining 50% will not be sent to YOU KNOW WHOs so no rug pulling!\nNo bad doggies in this dogg pound.\n \nDOGEV3 is also in compliance with GAFL (Generally Accepted Fair Launch) principles:\n"
-              : "\nDoge V3 is designed to PUMP fast, specifically on  Uniswap V3 \nAll made possible by the Moon Rocket Nitro Accelerator. \n\nDOGEV3 is cheap!\nUsers can load up on a ton of DOGEV3.\nHurry hurry before the rocket launches for the moon!\n\nWe locked 50% of the total supply (130,000,000,000 DOGEV3) to \nUniswapV3 and threw away the keys, paying homage to the other dog coins, woof woof! \n\nThe remaining 50% will not be sent to YOU KNOW WHOs so no rug pulling!\nNo bad doggies in this dogg pound.\n\nDOGEV3 is also in compliance with GAFL (Generally Accepted Fair Launch) principles:"}
+            <HDOGE>Doge V3</HDOGE> is designed to <RED>PUMP</RED> fast, specifically on <HUni>Uniswap V3</HUni><br />All made possible by the Moon Rocket Nitro Accelerator. <br /><br /><HDOGE>DOGEV3</HDOGE> is cheap!<br />Users can load up on a ton of <HDOGE>DOGEV3</HDOGE>.<br />Hurry hurry before the rocket launches for the moon!<br /><br />We locked <strong>50%</strong> of the total supply (130,000,000,000 DOGEV3) to <br /><HUni>UniswapV3</HUni> and threw away the keys, paying homage to the other dog coins, woof woof! <br /><br /> The remaining <storng>50%</storng> will not be sent to YOU KNOW WHOs so no rug pulling!<br />No bad doggies in this dogg pound.<br /> <br /><HDOGE>DOGEV3</HDOGE> is also in compliance with GAFL (Generally Accepted Fair Launch) principles:
           </div>
 
           <div className={classNames(defaultcss.all, sty.box__tuOtz)}>
@@ -262,15 +263,13 @@ function PlasmicTopSection4__RenderFunc(props: {
               sty.box__uQPxw
             )}
           >
-            {hasVariant(globalVariants, "screen", "mobile")
-              ? "The only way anyone, including the team members,\ncan acquire DOGEV3 is through the open and free market.\n\n"
-              : "The only way anyone, including the team members,\ncan acquire DOGEV3 is through the open and free market."}
+            The only way anyone, including the team members,<br />can acquire <HDOGE>DOGEV3</HDOGE> is through the open and free market.
+            {hasVariant(globalVariants, "screen", "mobile") ? '\n\n' : ''}
           </div>
         </p.Stack>
       </p.Stack>
-    </div>
-  ) as React.ReactElement | null;
-}
+    </div>)
+  }
 
 const PlasmicDescendants = {
   root: ["root", "section"],
